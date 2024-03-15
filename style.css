@@ -309,7 +309,7 @@ font-weight:600;
 @media screen and (max-width:500px){
   .banner__text h1{
     font-size:4rem;
-    text-align:center;
+    
 
   }
   .banner__text p{
@@ -338,6 +338,76 @@ font-weight:600;
     justify-content:center;
   }
   }
+
+  /* offer */
+  .offer{
+    background:var(--light); 
+    height:75vh;
+    }
+    .offer__text{
+        max-width: 65rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        justify-content:center;
+        
+    }
+    .offer__text h2{
+        font-size: 4rem;
+        color:var(--primary);
+        display:flex; 
+        gap:2rem;
+        text-align: left;
+        font-weight: 600;
+    }
+    .offer__text p{
+      font-size:2rem;
+      font-weight:300;
+    }
+    .offer__text a{
+      display:flex;
+      align-items:center;
+      background:var(--primary);
+      color:var(--light);
+      width:fit-content;
+      padding:1.5rem 2rem;
+      border-radius:3rem;
+      transition:.5s ease;
+      
+    }
+    .offer__text a:hover{
+      color:var(--primary);
+      transition:.5s ease;
+    }
+    .offer__price h3{
+      color:orange;
+      font-size:3rem;
+      font-weight:600;
+    }
+    .offer__price__bot h4{
+      color:var(--primary);
+      font-size:2.5rem;
+      font-weight:600;
+    }
+    @media screen and (max-width:500px){
+      .offer__text h2{
+        font-size: 4rem;
+        color:var(--primary);
+        display:flex; 
+        gap:2rem;
+        text-align: left;
+        font-weight: 600;
+
+    }
+    .offer__text p{
+      font-size:1.5rem;
+      font-weight:500;
+    }
+    .offer__text a{
+      width:100%;
+      justify-content:center;
+    }
+    }
 
 
 
